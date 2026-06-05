@@ -1,0 +1,93 @@
+{
+  "llm_single": {
+    "total_return": 278.01,
+    "annual_return": 29.32,
+    "annual_vol": 26.56,
+    "sharpe": 1.1,
+    "max_drawdown": -28.11,
+    "calmar": 1.04,
+    "win_rate": 63.5
+  },
+  "ml_llm_equal_weight": {
+    "total_return": 515.35,
+    "annual_return": 46.6,
+    "annual_vol": 29.97,
+    "sharpe": 1.56,
+    "max_drawdown": -19.0,
+    "calmar": 2.45,
+    "win_rate": 67.2
+  },
+  "ml_llm_joint_training": {
+    "total_return": 183.2,
+    "annual_return": 24.5,
+    "annual_vol": 28.32,
+    "sharpe": 0.87,
+    "max_drawdown": -30.44,
+    "calmar": 0.8,
+    "win_rate": 56.9
+  },
+  "feature_importance_top15": [
+    {
+      "feature": "liquidity_sentiment",
+      "importance": 0.16447555660462923
+    },
+    {
+      "feature": "ret_60d",
+      "importance": 0.09376818793801757
+    },
+    {
+      "feature": "ma5_ratio",
+      "importance": 0.06329904867602847
+    },
+    {
+      "feature": "intraday_range",
+      "importance": 0.04812156983803358
+    },
+    {
+      "feature": "vol_change",
+      "importance": 0.04319397736280223
+    },
+    {
+      "feature": "amihud_log",
+      "importance": 0.042728433496012685
+    },
+    {
+      "feature": "ma60_ratio",
+      "importance": 0.03900531443296236
+    },
+    {
+      "feature": "ret_20d",
+      "importance": 0.03867983409563436
+    },
+    {
+      "feature": "ma20_ratio",
+      "importance": 0.038270792794637236
+    },
+    {
+      "feature": "vp_divergence",
+      "importance": 0.037607851614840544
+    },
+    {
+      "feature": "llm_sentiment_score",
+      "importance": 0.03683468758959876
+    },
+    {
+      "feature": "vol_60d",
+      "importance": 0.03387583732487821
+    },
+    {
+      "feature": "momentum_sentiment",
+      "importance": 0.03028884206838532
+    },
+    {
+      "feature": "composite_sentiment",
+      "importance": 0.030016089323208157
+    },
+    {
+      "feature": "high_low_ratio",
+      "importance": 0.02876896108669268
+    }
+  ],
+  "llm_feature_importance_pct": 43.2,
+  "ml_feature_importance_pct": 56.8
+}

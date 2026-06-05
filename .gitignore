@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+*.egg
+
+# Large data files (use scripts to regenerate)
+data/daily_data_fixed.csv
+data/factor_data.csv
+data/llm_factors.csv
+data/ml_factor_scores.csv
+
+# Model files
+*.pkl
+*.h5
+*.parquet
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log

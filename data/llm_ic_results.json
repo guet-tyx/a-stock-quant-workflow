@@ -1,0 +1,67 @@
+{
+  "fear_index": {
+    "IC": 0.0061,
+    "IC_IR": 0.0543,
+    "IC>0%": 55.74
+  },
+  "greed_index": {
+    "IC": -0.0004,
+    "IC_IR": -0.0044,
+    "IC>0%": 48.44
+  },
+  "attention_factor": {
+    "IC": 0.0077,
+    "IC_IR": 0.064,
+    "IC>0%": 62.3
+  },
+  "momentum_sentiment": {
+    "IC": -0.0026,
+    "IC_IR": -0.0181,
+    "IC>0%": 44.83
+  },
+  "reversal_sentiment": {
+    "IC": 0.0011,
+    "IC_IR": 0.0082,
+    "IC>0%": 46.88
+  },
+  "volatility_sentiment": {
+    "IC": 0.0065,
+    "IC_IR": 0.0335,
+    "IC>0%": 49.21
+  },
+  "vp_divergence": {
+    "IC": -0.0009,
+    "IC_IR": -0.009,
+    "IC>0%": 50.0
+  },
+  "info_asymmetry": {
+    "IC": -0.0159,
+    "IC_IR": -0.1307,
+    "IC>0%": 40.98
+  },
+  "liquidity_sentiment": {
+    "IC": -0.0576,
+    "IC_IR": -0.5135,
+    "IC>0%": 25.4
+  },
+  "composite_sentiment": {
+    "IC": -0.0181,
+    "IC_IR": -0.1238,
+    "IC>0%": 44.83
+  },
+  "llm_sentiment_score": {
+    "IC": 0.0066,
+    "IC_IR": 0.0549,
+    "IC>0%": 55.74
+  },
+  "event_driven": {
+    "IC": 0.0,
+    "IC_IR": 0.0006,
+    "IC>0%": 51.56
+  },
+  "sentiment_consensus": {
+    "IC": 0.0016,
+    "IC_IR": 0.0165,
+    "IC>0%": 51.79
+  }
+}
