@@ -1,0 +1,7 @@
+[
+  {"name": "combo_2", "params": {"top_n": 30, "max_turnover": 0.3, "train_window": 24, "retrain_freq": 6}, "metrics": {"annual_return": 0.1779, "sharpe": 0.6768, "max_drawdown": -0.2439, "calmar": 0.7295, "win_rate": 0.6000, "n_months": 55}},
+  {"name": "combo_1", "params": {"top_n": 20, "max_turnover": 0.3, "train_window": 24, "retrain_freq": 6}, "metrics": {"annual_return": 0.1638, "sharpe": 0.5886, "max_drawdown": -0.2780, "calmar": 0.5893, "win_rate": 0.5818, "n_months": 55}},
+  {"name": "combo_3", "params": {"top_n": 20, "max_turnover": 0.5, "train_window": 24, "retrain_freq": 6}, "metrics": {"annual_return": 0.1523, "sharpe": 0.5351, "max_drawdown": -0.2817, "calmar": 0.5406, "win_rate": 0.5818, "n_months": 55}},
+  {"name": "combo_4", "params": {"top_n": 30, "max_turnover": 0.3, "train_window": 18, "retrain_freq": 3}, "metrics": {"annual_return": 0.1007, "sharpe": 0.4217, "max_drawdown": -0.2299, "calmar": 0.4380, "win_rate": 0.5263, "n_months": 57}},
+  {"name": "combo_5", "params": {"top_n": 20, "max_turnover": 0.3, "train_window": 18, "retrain_freq": 3}, "metrics": {"annual_return": 0.0789, "sharpe": 0.3028, "max_drawdown": -0.2491, "calmar": 0.3168, "win_rate": 0.4737, "n_months": 57}}
+]

@@ -1,0 +1,41 @@
+{
+  "summary": {
+    "initial_value": 1000000,
+    "final_value": 1503809.395,
+    "total_return": 0.5038,
+    "annual_return": 0.09967,
+    "annual_vol": 0.26804,
+    "sharpe_ratio": 0.3718,
+    "max_drawdown": -0.25616,
+    "calmar_ratio": 0.3891,
+    "win_rate": 0.5455,
+    "total_trades": 1000,
+    "total_cost": 138518.46,
+    "avg_turnover": 1.678,
+    "n_months": 55
+  },
+  "valid_factors": [
+    "liquidity_sentiment_rank",
+    "amihud_20d_rank",
+    "liquidity_adj_momentum",
+    "max_ret_20d",
+    "position_vol",
+    "vol_10d",
+    "vol_20d_rank",
+    "vol_5d",
+    "min_ret_20d",
+    "bb_width",
+    "vol_60d"
+  ],
+  "fixes_applied": [
+    "所有因子shift(1)防止前视偏差",
+    "Walk-Forward滚动训练(24月窗口, 6月重训)",
+    "真实交易成本(佣金+印花税+滑点+冲击=0.70%来回)",
+    "换手率约束(最大30%)",
+    "行业中性化选股(单行业最多15%)",
+    "动态仓位管理(波动率择时)",
+    "个股止损-8%, 组合止损-12%",
+    "清理无效因子, 去重后只保留11个有效因子",
+    "因子MAD去极值+Z-score标准化"
+  ]
+}
