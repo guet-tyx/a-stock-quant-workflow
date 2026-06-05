@@ -7,7 +7,7 @@ __pycache__/
 *.egg-info/
 *.egg
 
-# Large data files (use scripts to regenerate)
+# Large data files (use scripts to regenerate - these are huge CSVs)
 data/daily_data_fixed.csv
 data/factor_data.csv
 data/llm_factors.csv
@@ -30,3 +30,5 @@ Thumbs.db
 
 # Logs
 *.log
+
+# Keep v2 output (small JSON/CSV result files) - these are tracked
